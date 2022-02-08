@@ -10,7 +10,7 @@ pipeline {
     
         stage('Pulling Code form repo') {
             steps {
-		git credentialsId: 'github-creds', branch: 'main',
+		git credentialsId: 'github-Mohit722', branch: 'master',
 		url: 'https://github.com/Mohit722/spring-mvc-crud.git'
                 dir ('spring-mvc-crud'){
                 sh "pwd"
