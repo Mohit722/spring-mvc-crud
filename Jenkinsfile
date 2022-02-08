@@ -2,8 +2,8 @@ pipeline {
     agent any
     environment {
 		DOCKERHUB_CREDENTIALS=credentials('docker-hub')
-		//ipAddress = "ec2-13-126-91-10.ap-south-1.compute.amazonaws.com"
-		//username = "ubuntu"
+		//ipAddress = "ec2-13-232-53-107.ap-south-1.compute.amazonaws.com"
+		//username = "ec2-user"
 	}
 	
     stages {
